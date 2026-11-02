@@ -283,10 +283,3 @@ Arduino IDE está errada. Selecione **ESP32 Dev Module** e confira se não há u
 **O app não encontra o ESP32.** Confirme que o celular está na mesma rede, que
 o IP do app é o mesmo do Serial Monitor e que o IP fixo está fora da faixa do
 DHCP do roteador.
-
----
-
-## Segurança
-
-O firmware contém o nome e a senha do WiFi em texto puro. Antes de publicar o
-código (GitHub, fóruns), remova ou substitua esses valores por placeholders.

@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Monitor de Fluxo de Água",
+    "slug": "water-flow-monitor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1d24"
+    },
+    "android": {
+      "package": "com.seuusuario.waterflowmonitor",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a1d24"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "534f4c96-97c6-445b-88bc-046d525adf6d"
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ]
+  }
+}
